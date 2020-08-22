@@ -1,0 +1,18 @@
+#logo-nav {
+    font-size: 150%;
+    font-weight: 600;
+}
+
+.main-nav-items:link,
+.main-nav-items:visited
+ {
+    font-size: 75%;
+    border-bottom: 1px solid transparent;
+    transition: all 0.5s;
+}
+
+.main-nav-items:hover,
+.main-nav-items:active
+ {
+    border-bottom: 2px solid #72f507;
+}

@@ -1,0 +1,37 @@
+.project1 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(../img/lion-background.jpg);
+    height: inherit;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.project-name {
+    font-weight: 100;
+}
+
+.project2 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(../img/pack-background.jpg);
+    height: inherit;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.projects-nav {
+    background-color: rgba(0, 0, 0, 0.55);
+    padding: 10px;
+}
+
+#projects {
+    overflow: hidden;
+}
+
+#projects ul {
+    margin: 0px;
+}
+
+#projects li {
+    list-style: none;
+    display: inline;
+    padding: 10px;
+    cursor: pointer;
+}
